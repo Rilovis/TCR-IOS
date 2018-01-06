@@ -11,7 +11,7 @@ import time,random,sys,json,codecs,threading,glob,re
 
 cl = SOURCE.LINE()
 #cl.login(qr=False)
-cl.login(token='')
+cl.login(token='EoE0k7sVGBw4CUKf4sQb.w6+8YbOkbOMyiHAGbC+hcW.7JCetbYlyyhexR7O2MuxpbmRk7NyZKFkO+dzxlSlw/w=')
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -81,7 +81,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["YOUR_MID_HERE"]
+admin=["u5baffcc81a0a0689982216a005cfc70b"]
 wait = {
     'contact':True,
     'autoJoin':True,
